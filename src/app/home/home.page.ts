@@ -7,6 +7,11 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
+  public complexProp = {
+    name: 'Hellop',
+    age: 15,
+    presence: true
+  };
   constructor() {}
 
 }
